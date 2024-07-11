@@ -65,16 +65,7 @@ const {
 } = require('./utils/users');
 const { log } = require("console");
 dotenv.config({ path: "./config.env" });
-<!-- PushAlert -->
-<script type="text/javascript">
-        (function(d, t) {
-                var g = d.createElement(t),
-                s = d.getElementsByTagName(t)[0];
-                g.src = "https://cdn.pushalert.co/integrate_cc8a2499eff230417037e460f740760a.js";
-                s.parentNode.insertBefore(g, s);
-        }(document, "script"));
-</script>
-<!-- End PushAlert -->
+
 /* ---------for Local database connection---------- */
 //const DB = process.env.DATABASE_LOCAL;
 
